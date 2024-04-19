@@ -20,13 +20,13 @@ python main.py --help
 For vanilla MADDPG:
 
 ```shell
-python main.py simple_tag_coop examplemodel --n_episodes 40000
+python main.py simple_tag_coop examplemodel --n_episodes 20000
 ```
 
 For COLA-MADDPG:
 
 ```shell
-python main.py simple_tag_coop examplemodel --n_episodes 40000 --consensus
+python main.py simple_tag_coop examplemodel --n_episodes 20000 --consensus
 ```
 
 ## Multi-agent Particle Env
